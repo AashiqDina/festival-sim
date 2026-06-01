@@ -1,0 +1,102 @@
+.RegisterPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.RegisterForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.1rem;
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 4rem 3rem 4rem 3rem;
+    border-radius: 2.5rem;
+}
+
+.RegisterForm.error {
+    animation-name: InvalidFormInput;
+    animation-duration: 0.25s;
+    animation-iteration-count: 3;
+}
+
+.RegisterForm h1{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.RegisterForm input{
+    width: 90%;
+    min-width: 5rem;
+    height: 1.8rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    box-shadow: 0 5px 10px 1px#000000a2;
+}
+
+.RegisterForm label{
+    padding-left: 0.6rem;
+    text-align: left;
+    align-self: flex-start;
+    margin-bottom: 0.1rem;
+    font-weight: 400;
+}
+
+.RegisterForm button{
+    background-color: #22193179;
+    box-shadow: 0 5px 10px 1px#000000a2;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    margin-top: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.RegisterForm button:hover{
+    cursor: pointer;
+    background-color: #2b203e79;
+}
+
+.RegisterForm button:active{
+    transition: all 0s ease-in-out;
+    cursor: pointer;
+    background-color: #29325079; 
+}
+
+.RegisterErr{
+    color: rgb(230, 0, 0);
+}
+
+.RegisterForm p {
+    font-weight: 100;
+}
+
+.LoginNav{
+    text-decoration: none;
+    color: #8476ab;
+}
+
+
+@keyframes InvalidFormInput {
+    0%{
+        border: 1px solid #bb1515;
+        transform: translateX(-5px);
+        
+    }
+    50%{
+        border: 1px solid #bb1515;
+        transform: translateX(10px);
+    }
+    100%{
+        border: 1px solid #bb1515;
+        transform: translateX(-5px);
+    }
+}
+

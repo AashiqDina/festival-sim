@@ -1,0 +1,39 @@
+.NewFestivalBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: #120d1a34;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    box-shadow: 0 5px 10px 1px #000000bb;
+    transition: all 0.4s ease-in-out;
+}
+
+.NewFestivalBox div h1{
+    font-size: 6rem;
+    font-weight: 100;
+}
+
+.NewFestivalBox > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8476ab1e;
+    border-radius: 5rem;
+    padding: 0.2rem;
+    height: 80px;
+    width: 80px;
+}
+
+.NewFestivalBox:hover{
+    background-color: #120d1a60;
+    scale: 1.02;
+    cursor: pointer;
+}

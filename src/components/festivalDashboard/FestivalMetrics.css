@@ -1,0 +1,45 @@
+.MetricsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #00000032;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.MetricsContainer h2{
+    padding: 0;
+    margin: 0.4rem 0 1rem 0;
+}
+
+.RunSimButton{
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: #1a1426fd;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    box-shadow: 0 5px 10px 1px #000000bb;
+    transition: all 0.4s ease-in-out;
+    margin: 0 0.5rem 0 0.5rem
+}
+
+.RunSimButton:hover{
+    cursor: pointer;
+    background-color: #231a32f7;
+}
+
+.MetricsData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    row-gap: 0.4rem;
+    column-gap: 0.3rem;
+}

@@ -1,0 +1,53 @@
+.FestivalDashboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 1rem;
+    overflow-y: hidden;
+}
+
+.FestivalLeft{
+    background-color: #00000032;
+    width: 50%;
+    height: 100%;
+    margin: 1rem 0.5rem 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.FestivalRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.FestivalData{
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+@media (max-width: 1000px) {
+    .FestivalDashboard{
+        flex-wrap: wrap;
+        overflow-y: auto;
+    }
+
+    .FestivalLeft, .FestivalRight{
+        width: 100%;
+        justify-content: flex-start;
+    }
+}

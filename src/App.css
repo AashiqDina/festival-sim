@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(#04080c, #171125);
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

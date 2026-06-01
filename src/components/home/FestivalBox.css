@@ -1,0 +1,39 @@
+.FestivalBox{
+    background-color: #00000016;
+    width: 300px;
+    height: 250px;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 5px 10px 1px #000000bb;
+    transition: all 0.4s ease-in-out;
+}
+
+.FestivalBox h2{
+    font-size: 1.8rem;
+    margin: 0.2rem;
+}
+
+.FestivalBox p{
+font-weight:  500;
+}
+
+.FestivalBox div span{
+    font-weight: 200;
+}
+
+.FestivalBox div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.FestivalBox:hover{
+    background-color: #120d1a60;
+    scale: 1.02;
+    cursor: pointer;
+}

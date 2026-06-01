@@ -1,0 +1,13 @@
+export const toiletCost = 150;
+export const binsCost = 20;
+export const speakersCost = 500;
+export const medicsCost = 200;
+export const stageEnergyUsage = 3000;
+export const speakersEnergyUsage = 1000;
+export const vendorsEnergyUsage = 300;
+export const toiletsEnergyUsage = 20;
+export const attendeeWaterUsage = 5;
+export const toiletWaterUsage = 50;
+export const peoplePerMedic = 300;
+export const peoplePerVendor = 200
+export const peoplePerToilet = 70

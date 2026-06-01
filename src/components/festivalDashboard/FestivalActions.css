@@ -1,0 +1,22 @@
+.ActionsContainer{
+    width: 100%;
+    position: sticky;
+}
+
+.ButtonCollection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #00000032;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+
+.ActionsButtonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

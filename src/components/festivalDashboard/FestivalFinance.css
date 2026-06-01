@@ -1,0 +1,21 @@
+.FinanceContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #00000032;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+
+.FinanceData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    row-gap: 0.4rem;
+    column-gap: 0.3rem;
+}

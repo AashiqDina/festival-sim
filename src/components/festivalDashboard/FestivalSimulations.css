@@ -1,0 +1,67 @@
+.SimulationsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #00000032;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.SimulationsContainerBlank{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000032;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.SimulationsContainer > h2{
+    text-align: center;
+}
+
+.SimHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.SimHeader button{
+    background-color: #ffffff00;
+    border: none;
+    width: 16px;
+}
+
+.LeftArrow {
+    background-color: rgba(255, 255, 255, 0);
+    border-top: 0.8rem solid transparent;
+    border-bottom: 0.8rem solid transparent;
+    border-right: 1.4rem solid #ffffff;
+    cursor: pointer;
+    padding: 0;
+    appearance: none;
+}
+
+.RightArrow {
+    background-color: rgba(255, 255, 255, 0);
+    width: 0;
+    height: 0;
+    border-top: 0.8rem solid transparent;
+    border-bottom: 0.8rem solid transparent;
+    border-left: 1.4rem solid #ffffff;
+    cursor: pointer;
+}
+
+.SimBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    row-gap: 0.4rem;
+    column-gap: 0.3rem;
+}

@@ -1,0 +1,62 @@
+.HeaderContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.HeaderTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgba(240, 248, 255, 0);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border: none;
+    padding: 0;
+}
+
+.HeaderTitle span{
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+.HeaderTitle:hover{
+    cursor: pointer;
+}
+
+.HeaderTitle img{
+    width: 3rem;
+}
+
+.HeaderUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.HeaderUser button{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 550;
+    padding-left: 0;
+
+}
+
+.HeaderUser button:hover{
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    color: #8476ab;
+}
+
+.HeaderUser span{
+    font-size: 1.5rem;
+    font-weight: 600;
+}

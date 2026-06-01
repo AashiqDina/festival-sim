@@ -1,0 +1,53 @@
+.BannerSuccess-true, .BannerSuccess-false{
+    position: fixed;
+    top: 5rem;
+    right: 1px;
+    z-index: 9999;
+    width: 20rem;
+    border-radius: 1rem 0 0 1rem;
+    animation: popInRight 0.3s ease-out;
+}
+
+.BannerSuccess-true{
+    background-color: rgba(0, 255, 34, 0.342);;
+}
+
+.BannerSuccess-false{
+    background-color: rgba(230, 0, 0, 0.342);;
+}
+
+.BannerSuccess-true div, .BannerSuccess-false div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+}
+
+.BannerSuccess-true div h2, .BannerSuccess-false div h2{
+    font-size: 1.2rem;
+    font-weight:  700;
+}
+
+.BannerSuccess-true div button, .BannerSuccess-false div button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.BannerSuccess-true div button:hover, .BannerSuccess-false div button:hover{
+    cursor: pointer;
+}
+
+@keyframes popInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

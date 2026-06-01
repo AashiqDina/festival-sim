@@ -1,0 +1,33 @@
+.Cross {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.lineOne,
+.lineTwo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    transform-origin: center;
+    transition: all 0.4s ease-in-out;
+    border-radius: 2rem;
+}
+
+.lineOne {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.lineTwo {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.Cross:hover .lineOne,
+.Cross:hover .lineTwo {
+    background-color: rgba(255, 255, 255, 0.51);
+    scale: 1.05;
+}
