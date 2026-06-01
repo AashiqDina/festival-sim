@@ -4,6 +4,15 @@ The app models real-world festival constraints such as attendance, weather, staf
 
 ---
 
+## Note on GitHub Release Download
+
+If downloading the release ZIP, GitHub wraps the project in an extra folder.  
+You may need to open:
+
+festival-sim-1.0.0/festival-sim-1.0.0
+
+to access the project root.
+
 ## How to Run
 
 ```bash
