@@ -40,7 +40,6 @@ npm test
 - Vite
 - Jest (unit testing)
 - CSS
-- Node.js (tooling)
 
 ## Features
 
