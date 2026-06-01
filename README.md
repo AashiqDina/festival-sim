@@ -33,6 +33,15 @@ Run tests with:
 npm test
 ```
 
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Jest (unit testing)
+- CSS
+- Node.js (tooling)
+
 ## Features
 
 ### User System (Local Storage)
